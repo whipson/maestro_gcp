@@ -10,4 +10,5 @@ RUN R -e 'renv::restore()'
 WORKDIR /app
 COPY orchestrator.R /app/orchestrator.R
 COPY pipelines /app/pipelines
+EXPOSE 8080
 CMD ["Rscript", "--no-save", "orchestrator.R"]
