@@ -1,4 +1,4 @@
-FROM rocker/r-base:4.3.3
+FROM rstudio/plumber
 RUN apt-get update && apt-get install -y \
     libxml2-dev \
     && rm -rf /var/lib/apt/lists/*
@@ -8,4 +8,4 @@ RUN R -e 'remotes::install_version("renv", version = "1.0.7")'
 WORKDIR /usr/src/app
 COPY . .
 RUN R -e 'renv::restore()'
-CMD ["Rscript", "--no-save", "orchestrator.R"]
+CMD ["Rscript", "server.R"]
