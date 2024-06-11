@@ -3,6 +3,7 @@ RUN apt-get update && apt-get install -y \
     libxml2-dev \
     libcurl4-openssl-dev \
     libssl-dev \
+    libsodium-dev \
     zlib1g-dev \
     pkg-config \
     && rm -rf /var/lib/apt/lists/*
