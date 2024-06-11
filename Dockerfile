@@ -1,4 +1,4 @@
-FROM rstudio/plumber
+FROM rocker/r-base:4.3.3
 RUN apt-get update && apt-get install -y \
     libxml2-dev \
     && rm -rf /var/lib/apt/lists/*
