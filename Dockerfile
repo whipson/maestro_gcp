@@ -8,5 +8,4 @@ RUN R -e 'remotes::install_version("renv", version = "1.0.7")'
 WORKDIR /usr/src/app
 COPY . .
 RUN R -e 'renv::restore()'
-EXPOSE 8080
-CMD ["Rscript", "orchestrator.R"]
+CMD ["Rscript", "--no-save", "orchestrator.R"]
