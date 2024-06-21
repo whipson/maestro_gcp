@@ -133,7 +133,7 @@
     },
     "crayon": {
       "Package": "crayon",
-      "Version": "1.5.2",
+      "Version": "1.5.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -141,7 +141,7 @@
         "methods",
         "utils"
       ],
-      "Hash": "e8a1e41acf02548751f45c718d55aa6a"
+      "Hash": "859d96e65ef198fd43e82b9628d593ef"
     },
     "curl": {
       "Package": "curl",
@@ -204,14 +204,14 @@
     },
     "evaluate": {
       "Package": "evaluate",
-      "Version": "0.23",
+      "Version": "0.24.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "daf4a1246be12c1fa8c7705a0935c1a0"
+      "Hash": "a1066cbc05caee9a4bf6d90f194ff4da"
     },
     "fansi": {
       "Package": "fansi",
@@ -380,14 +380,14 @@
     },
     "maestro": {
       "Package": "maestro",
-      "Version": "0.0.2",
+      "Version": "0.0.4",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "maestro",
       "RemoteUsername": "whipson",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2990a4a614ca6a3c141007845036da283755e101",
+      "RemoteSha": "f26c5ff7223ba9e44399d6db8e2210bff0f1f41a",
       "Requirements": [
         "R",
         "R.utils",
@@ -399,12 +399,11 @@
         "purrr",
         "rlang",
         "roxygen2",
-        "rstudioapi",
         "tictoc",
         "timechange",
         "utils"
       ],
-      "Hash": "1f05d4b14cbd3b82eb9a3d45f2276b66"
+      "Hash": "5a1b8ab4d22a936678877237a75652a3"
     },
     "magrittr": {
       "Package": "magrittr",
@@ -595,13 +594,6 @@
       ],
       "Hash": "4c8415e0ec1e29f3f4f6fc108bef0144"
     },
-    "rstudioapi": {
-      "Package": "rstudioapi",
-      "Version": "0.16.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "96710351d642b70e8f02ddeb237c46a7"
-    },
     "snakecase": {
       "Package": "snakecase",
       "Version": "0.11.1",
@@ -769,7 +761,7 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.44",
+      "Version": "0.45",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -777,7 +769,7 @@
         "stats",
         "tools"
       ],
-      "Hash": "317a0538d32f4a009658bcedb7923f4b"
+      "Hash": "ca59c87fe305b16a9141a5874c3a7889"
     },
     "xml2": {
       "Package": "xml2",
