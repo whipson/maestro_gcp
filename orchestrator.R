@@ -4,6 +4,6 @@ schedule <- build_schedule()
 
 run_schedule(
   schedule,
-  orch_frequency = "15 minutes",
+  orch_frequency = "1 day",
   logging = FALSE
 )

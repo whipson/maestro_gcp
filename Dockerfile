@@ -1,4 +1,4 @@
-FROM rstudio/plumber
+FROM rocker/tidyverse
 RUN apt-get update && apt-get install -y \
     libxml2-dev \
     libcurl4-openssl-dev \
