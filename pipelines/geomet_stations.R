@@ -28,30 +28,8 @@ geomet_stations <- function() {
       insert_time = lubridate::now(tzone = "UTC")
     )
   
-  # Connect to a local in-memory duckdb
-  conn <- DBI::dbConnect(duckdb::duckdb())
-  
-  # Create and write to a table
-  DBI::dbWriteTable(
-    conn, 
-    name = "geomet_stations_transactional", 
-    value = stations_clean
-  )
-  
-  # Test that it worked in the return
-  res <- DBI::dbGetQuery(
-    conn, 
-    statement = "
-    select * from geomet_stations_transactional
-    order by insert_time desc
-    limit 10
-    "
-  ) |>
-    dplyr::as_tibble()
-  
-  DBI::dbDisconnect(conn)
-  
-  return(
-    res
+  write.csv(
+    stations_clean,
+    "geomet_stations_transactional.csv"
   )
 }
