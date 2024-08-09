@@ -2,6 +2,7 @@
 title: Orchestrator
 resources: 
   - pipelines/geomet_stations.R
+  - renv.lock
 ---
 
 ```{r}
