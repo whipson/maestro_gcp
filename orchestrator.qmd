@@ -1,5 +1,7 @@
 ---
 title: Orchestrator
+resources: 
+  - pipelines/geomet_stations.R
 ---
 
 ```{r}

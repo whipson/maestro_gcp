@@ -5,6 +5,10 @@
       {
         "Name": "CRAN",
         "URL": "https://cran.rstudio.com"
+      },
+      {
+        "Name": "RSPM",
+        "URL": "https://analytics.hiaa.ca:8443/hiaa-internal/latest"
       }
     ]
   },
