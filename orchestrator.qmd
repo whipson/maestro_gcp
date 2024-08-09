@@ -1,5 +1,7 @@
 ---
-title: Orchestrator
+title: "Orchestrator"
+format: html
+editor: visual
 resources: 
   - pipelines/geomet_stations.R
   - renv.lock
@@ -7,7 +9,6 @@ resources:
 
 ```{r}
 library(maestro)
-library(rmarkdown)
 
 schedule <- build_schedule()
 
